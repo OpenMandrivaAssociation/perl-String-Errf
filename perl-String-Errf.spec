@@ -18,7 +18,7 @@ BuildRequires: perl(Params::Util)
 BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(String::Formatter)
 BuildRequires: perl(Sub::Exporter)
-BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::More) >= 0.960.0
 BuildRequires: perl(Time::Piece)
 BuildRequires: perl(autodie)
 BuildArch: noarch
