@@ -1,15 +1,15 @@
 %define upstream_name    String-Errf
-%define upstream_version 0.006
+%define upstream_version 0.007
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	A simple sprintf-like dialect
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/String/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/String/String-Errf-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -56,4 +56,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Feb 20 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.6.0-1
 + Revision: 638974
 - import perl-String-Errf
+
 
