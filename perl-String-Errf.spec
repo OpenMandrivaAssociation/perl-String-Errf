@@ -1,15 +1,15 @@
 %define upstream_name    String-Errf
-%define upstream_version 0.007
+%define upstream_version 0.009
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	A simple sprintf-like dialect
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/String/String-Errf-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/String-Errf
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/String-Errf-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
